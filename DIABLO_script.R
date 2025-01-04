@@ -193,6 +193,13 @@ circosPlot(final.diablo.model, cutoff = 0.7, line = TRUE,
            color.blocks= c('darkorchid', 'lightgreen', 'cadetblue2'),
            color.cor = c("chocolate3","grey20"), size.labels = 1.5)
 
+# represent the multi-omics molecular signature expression for each sample
+cimDiablo(final.diablo.model, 
+          color.blocks = c('darkolivegreen1', 'plum', 'cadetblue3'), # Change the colors of the blocks
+          comp = c(1:3), # select the components to represent
+          margin=c(8,20), 
+          legend.position = "right")
+
 # visualise the correlations between the different types of variables
 # X11() #Opens a new window
 network(final.diablo.model, blocks = c(1,2,3),
