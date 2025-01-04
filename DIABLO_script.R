@@ -1,7 +1,7 @@
 
 # Title: DIABLO step-by-step
-# Created: November 2024
-# Author: Paula Solé
+# Created: January 2024
+# Author: Paula Solé Vallés
 
 # ---------------------------- Loading packages and data ------------------------------------
 
